@@ -1,11 +1,33 @@
 .title{
   margin: 0 auto;
   text-align: center;
-  color: cadetblue;
+  color: rgb(135, 42, 150);
 }
 
+p,#totalbill{
+  color: rgb(135, 42, 150);
+  font-size: 24px;
+}
 
+label{
+  color: rgb(135, 42, 150);
+  font-size: 24px;
 
+}
+body{
+  background-image: url("mountains-motion-background_bvfnn_hzx__F0000.png");
+  background-size: cover;
+}
+
+#container{
+  background: #2980B9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 12px;
+
+}
 
 
 
@@ -33,13 +55,13 @@
     appearance: none;
     width: 25px;
     height: 25px;
-    background: #4CAF50;
+    background: rgb(135, 42, 150);
     cursor: pointer;
 }
 
 .slider::-moz-range-thumb {
     width: 25px;
     height: 25px;
-    background: #4CAF50;
+    background: rgb(135, 42, 150);
     cursor: pointer;
 }
